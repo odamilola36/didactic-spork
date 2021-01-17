@@ -26,8 +26,11 @@ footer a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.wrapper {
-  overflow: scroll;
+.outter-wrapper {
+  overflow-x: hidden;
+}
+.inner-wrapper {
+  overflow-x: scroll;
 }
 .grid-container {
   color: white;
